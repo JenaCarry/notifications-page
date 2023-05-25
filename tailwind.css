@@ -38,7 +38,7 @@
     }
 
     .not-read {
-        @apply bg-lightGrayishBlue-50 rounded-lg
+        @apply bg-lightGrayishBlue-50 rounded-lg cursor-pointer
     }
 
     .user {
@@ -50,7 +50,7 @@
     }
 
     .not-read .dot {
-        @apply after:content-[''] after:w-2 after:h-2 after:absolute after:bg-primaryRed after:rounded-full after:bottom-1.5 after:ml-1.5
+        @apply after:content-[''] after:w-2 after:h-2 after:absolute after:bg-primaryRed after:rounded-full after:bottom-1.5 after:ml-1.5 after:animate-pulse
     }
 
     .show {

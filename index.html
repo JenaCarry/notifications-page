@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="keywords" content="HTML, CSS, JavaScript, Tailwindcss, Jena Carry, Frontend Mentor, Notifications page">
+  <meta name="author" content="Jena Carry">
+  <meta name="description" content="Page built for a Frontend Mentor challenge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="assets/images/favicon-32x32.png" type="image/x-icon">
+  <title>Frontend Mentor | Notifications page</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body class="font-PlusJakartaSans bg-lightGrayishBlue-50 min-h-screen grid place-content-center sm:py-12">
+  <div
+    class="max-w-2xl bg-white px-3 min-[481px]:px-6 text-lightGrayishBlue-400 py-6 sm:rounded-xl shadow-[0_10px_0_20px_rgba(229,239,250,0.25)]">
+
+    <!-- Header -->
+    <header class="flex justify-between items-center pb-5">
+      <div class="flex items-center">
+        <h2 class="text-lg text-lightGrayishBlue-500 font-extrabold">
+          Notifications
+        </h2>
+        <span id="notifications"
+          class="text-sm w-7 h-6 bg-primaryBlue text-white rounded-md ml-1.5 grid place-content-center">3</span>
+      </div>
+      <button id="btn" class="text-sm hover:text-primaryBlue transition-all duration-200 ease-in-out">Mark all as read
+      </button>
+    </header>
+    <!-- /Header -->
+
+    <!-- Main -->
+    <main>
+      <h1 class="sr-only">Notifications page</h1>
+      <ul class="space-y-3.5">
+        <li class="read not-read">
+          <div>
+            <img src="assets/images/avatar-mark-webber.webp" alt="Mark Webber" width="90" height="90">
+          </div>
+          <div>
+            <h2 class="dot">
+              <a class="user" href="#">Mark Webber</a>
+              reacted to your recent post
+              <a class="show" href="#">My first tournament today!</a>
+            </h2>
+            <p class="text-lightGrayishBlue-300">1m ago</p>
+          </div>
+        </li>
+
+        <li class="read not-read">
+          <div>
+            <img src="assets/images/avatar-angela-gray.webp" alt="Angela Gray" width="90" height="90">
+          </div>
+          <div>
+            <h2 class="dot">
+              <a class="user" href="#">Angela Gray</a>
+              followed you
+            </h2>
+            <p class="text-lightGrayishBlue-300">5m ago</p>
+          </div>
+        </li>
+
+        <li class="read not-read">
+          <div>
+            <img src="assets/images/avatar-jacob-thompson.webp" alt="Jacob Thompson" width="90" height="90">
+          </div>
+          <div>
+            <h2 class="dot">
+              <a class="user" href="#">Jacob Thompson</a>
+              has joined your group
+              <a class="show text-primaryBlue" href="#">Chess Club</a>
+            </h2>
+            <p class="text-lightGrayishBlue-300">1 day ago</p>
+          </div>
+        </li>
+
+        <li class="read">
+          <div>
+            <img src="assets/images/avatar-rizky-hasanuddin.webp" alt="Rizky Hasanuddin" width="90" height="90">
+          </div>
+          <div>
+            <h2>
+              <a class="user" href="#">Rizky Hasanuddin</a>
+              sent you a private message
+            </h2>
+            <p class="text-lightGrayishBlue-300">5 days ago</p>
+            <div class="message mt-2.5">
+              <a href="#">
+                Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and
+                I'm already having lots of fun and improving my game.
+              </a>
+            </div>
+          </div>
+        </li>
+
+        <li class="read">
+          <div>
+            <img src="assets/images/avatar-kimberly-smith.webp" alt="Kimberly Smith" width="90" height="90">
+          </div>
+          <div class="grid grid-cols-[1fr_2.5rem] gap-3">
+            <div>
+              <h2>
+                <a class="user" href="#">Kimberly Smith</a>
+                commented on your picture
+              </h2>
+              <p class="text-lightGrayishBlue-300">1 week ago</p>
+            </div>
+            <a href="#">
+              <img class="w-10 h-10" src="assets/images/image-chess.webp" alt="Chess" width="90" height="90">
+            </a>
+          </div>
+        </li>
+
+        <li class="read">
+          <div>
+            <img src="assets/images/avatar-nathan-peterson.webp" alt="Nathan Peterson" width="90" height="90">
+          </div>
+          <div>
+            <h2>
+              <a class="user" href="#">Nathan Peterson</a>
+              reacted to your recent post
+              <a class="show" href="#">
+                5 end-game strategies to increase your win rate
+              </a>
+            </h2>
+            <p class="text-lightGrayishBlue-300">2 weeks ago</p>
+          </div>
+        </li>
+
+        <li class="read">
+          <div>
+            <img src="assets/images/avatar-anna-kim.webp" alt="Anna Kim" width="90" height="90">
+          </div>
+          <div>
+            <h2>
+              <a class="user" href="#">Anna Kim</a>
+              left the group
+              <a class="show text-primaryBlue" href="#">Chess Club</a>
+            </h2>
+            <p class="text-lightGrayishBlue-300">2 weeks ago</p>
+          </div>
+        </li>
+      </ul>
+    </main>
+    <!-- /Main -->
+
+  </div>
+
+  <script src="assets/js/index.js"></script>
+</body>
+
+</html>

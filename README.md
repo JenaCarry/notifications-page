@@ -13,11 +13,11 @@
   <br>
 
   <div align="center">
-    <a href="">View Demo</a>
+    <a href="https://jenacarry.github.io/notifications-page/">View Demo</a>
     -
-    <a href="">Report Bug</a>
+    <a href="https://github.com/JenaCarry/notifications-page/issues">Report Bug</a>
     -
-    <a href="">Request Feature</a>
+    <a href="https://github.com/JenaCarry/notifications-page/pulls">Request Feature</a>
   </div>
 
 </div>
@@ -35,7 +35,7 @@ This is a solution to the [Notifications page challenge on Frontend Mentor](http
 <h2>Links</h2>
 
 - Solution URL: [Notifications page | Frontend Mentor]()
-- Live Site URL: []()
+- Live Site URL: [https://jenacarry.github.io/notifications-page/](https://jenacarry.github.io/notifications-page/)
 
 <br>
 

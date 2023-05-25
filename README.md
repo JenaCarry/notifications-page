@@ -5,7 +5,7 @@
   <h2>Notifications page</h2>
 
   <h3>
-    <a href="">
+    <a href="https://www.frontendmentor.io/solutions/notifications-page-oqufM9wshr">
       <strong>Frontend Mentor</strong>
     </a>
   </h3>
@@ -34,7 +34,7 @@ This is a solution to the [Notifications page challenge on Frontend Mentor](http
 
 <h2>Links</h2>
 
-- Solution URL: [Notifications page | Frontend Mentor]()
+- Solution URL: [Notifications page | Frontend Mentor](https://www.frontendmentor.io/solutions/notifications-page-oqufM9wshr)
 - Live Site URL: [https://jenacarry.github.io/notifications-page/](https://jenacarry.github.io/notifications-page/)
 
 <br>
